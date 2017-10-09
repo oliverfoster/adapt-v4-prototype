@@ -40,16 +40,16 @@ grunt dev
   * have a [``config.js``](https://github.com/oliverfoster/adapt-contrib-boot/blob/master/config.js) for each plugin rather than a global one for adapt_framework. this is hopefully only a temporary measure to ensure all of the plugins are able to configure the compilation process appropriately
 
 * grunt
-  * [``grunt-file-order``](https://github.com/cgkineo/grunt-file-order) was create to sort files in the build process
-  * grunt builds the flat plugins in plugin type order and then in dependency order
-  * the grunt config is simplified as all plugins are treated equally and there are no secondary rules for the core
+  * [``grunt-file-order``](https://github.com/cgkineo/grunt-file-order) was created to sort files in the build process
+  * grunt builds the flattened plugins in plugin-type-order (all ``adapt-core`` first, all ``adapt-theme`` last) and then in dependency-order (roots first, most dependant last)
+  * the grunt config is somewhat simplified as all plugins are treated equally and there are no secondary rules for the core
 
 * core
   * is now 5 plugins [``adapt-contrib-boot``](https://github.com/oliverfoster/adapt-contrib-boot), [``adapt-contrib-core``](https://github.com/oliverfoster/adapt-contrib-core), [``adapt-contrib-drawer``](https://github.com/oliverfoster/adapt-contrib-drawer), [``adapt-contrib-navigation``](https://github.com/oliverfoster/adapt-contrib-navigation) and [``adapt-contrib-notify``](https://github.com/oliverfoster/adapt-contrib-notify). these 5 plugins are currently just an example of how the core can/should be sub-divided. i picked the easy bits.
   * these plugins are quite easy to override and extend now as they each have a defined scope.
 
 * adaptv4-cli
-  * this is just a forked and published version of the issue/v4 branch of the usual adapt-cli repo, it lives [here](https://github.com/oliverfoster/adaptv4-cli)
+  * this is just a forked and published version of the issue/v4 branch of the usual adapt-cli repo (with a few minor updates), it lives [here](https://github.com/oliverfoster/adaptv4-cli)
 
 ### Outstanding
 * core

@@ -2,7 +2,7 @@
 Readme for testing prototype.
 
 
-### Simple instructions
+## Simple installation instructions
 1. Open your terminal of choice and run:
 ```bash
 npm install -g adaptv4-cli
@@ -21,6 +21,8 @@ As the folder change seems a bit broken at the moment
 ```bash
 grunt dev
 ```
+
+## Details
 
 ### Not working
 * grunt

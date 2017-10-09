@@ -11,12 +11,11 @@ npm install -g adaptv4-cli
 ```bash
 adaptv4 create course
 ```
-3. You might need to:
+3. As the folder change seems a bit broken at the moment, you might need to:
 ```bash
 cd my-adapt-course
 adaptv4 install
 ```
-As the folder change seems a bit broken at the moment
 4. Build it:
 ```bash
 grunt dev
@@ -56,4 +55,4 @@ grunt dev
 * core
   * ``adapt-contrib-dataLoader`` to allow for the loading of custom json files and to provide a pre-model stage
   * ``adapt-contrib-mpabc`` the menu, page, article, block, component and items abstraction, can be made of a data layer and a view layer
-  * decide what to do with router, accessibility, 
+  * decide what to do with router, accessibility, etc

@@ -43,6 +43,7 @@ grunt dev
   * [``grunt-file-order``](https://github.com/cgkineo/grunt-file-order) was created to sort files in the build process
   * grunt builds the flattened plugins in plugin-type-order (all ``adapt-core`` first, all ``adapt-theme`` last) and then in dependency-order (roots first, most dependant last)
   * the grunt config is somewhat simplified as all plugins are treated equally and there are no secondary rules for the core
+  * grunt now rewrites the runtime dependency strings to accomodate the changes, 'coreJS/' will be rewritten into `adapt-contrib-core/js/`, etc. and warnings will show in the console for bad namespaces
 
 * core
   * is now 5 plugins [``adapt-contrib-boot``](https://github.com/oliverfoster/adapt-contrib-boot), [``adapt-contrib-core``](https://github.com/oliverfoster/adapt-contrib-core), [``adapt-contrib-drawer``](https://github.com/oliverfoster/adapt-contrib-drawer), [``adapt-contrib-navigation``](https://github.com/oliverfoster/adapt-contrib-navigation) and [``adapt-contrib-notify``](https://github.com/oliverfoster/adapt-contrib-notify). these 5 plugins are currently just an example of how the core can/should be sub-divided. i picked the easy bits.

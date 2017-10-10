@@ -12,7 +12,7 @@ npm install -g adaptv4-cli
 ```bash
 adaptv4 create course
 ```
-3. As the folder change seems a bit broken at the moment, you might need to:
+3. As the folder change seem is a bit broken at the moment because ``adaptv4-cli`` default repositories aren't setup properly. You will need to:
 ```bash
 cd my-adapt-course
 adaptv4 install

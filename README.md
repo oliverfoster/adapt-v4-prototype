@@ -10,15 +10,11 @@ npm install -g adaptv4-cli
 ```
 2. Find a place to create a course and run:
 ```bash
-adaptv4 create course
+adaptv4 create course my-adapt-course
 ```
-3. As the folder change seem is a bit broken at the moment because ``adaptv4-cli`` default repositories aren't setup properly. You will need to:
+3. Build it:
 ```bash
 cd my-adapt-course
-adaptv4 install
-```
-4. Build it:
-```bash
 grunt dev
 ```
 

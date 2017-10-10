@@ -45,11 +45,12 @@ grunt dev
   * grunt builds the flattened plugins in plugin-type-order (all ``adapt-core`` first, all ``adapt-theme`` last) and then in dependency-order (roots first, most dependant last)
   * the grunt config is somewhat simplified as all plugins are treated equally and there are no secondary rules for the core
   * grunt now rewrites the runtime requirejs dependency strings to accomodate the new layout. ``coreJS/`` will be rewritten into `adapt-contrib-core/js/`, etc. and warnings will shown in the console for renamed namespaces
+  * has some extra files to manage the plugins, to correct namespaces and to load requirejs configurations
 
 * core
   * is now 5 plugins [``adapt-contrib-boot``](https://github.com/oliverfoster/adapt-contrib-boot), [``adapt-contrib-core``](https://github.com/oliverfoster/adapt-contrib-core), [``adapt-contrib-drawer``](https://github.com/oliverfoster/adapt-contrib-drawer), [``adapt-contrib-navigation``](https://github.com/oliverfoster/adapt-contrib-navigation) and [``adapt-contrib-notify``](https://github.com/oliverfoster/adapt-contrib-notify). these 5 plugins are currently just an example of how the core can/should be sub-divided. i picked the easy bits.
   * these plugins are quite easy to override and extend now as they each have a defined scope.
-  * the framework branch for this prototype is [prototype4](https://github.com/adaptlearning/adapt_framework/tree/prototype4), the ``core`` folder is removed as is the ``index.html`` and grunt is updated to accomodate the new plugin structure
+  * the framework branch for this prototype is [prototype4](https://github.com/adaptlearning/adapt_framework/tree/prototype4), the ``src/core`` folder is removed as is the ``src/index.html`` and the ``grunt`` folder is updated to accomodate the new plugin structure
 
 * adaptv4-cli
   * this is just a forked and published version of the issue/v4 branch of the usual adapt-cli repo (with a few minor updates), it lives [here](https://github.com/oliverfoster/adaptv4-cli)

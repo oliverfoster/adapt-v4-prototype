@@ -3,6 +3,7 @@ Readme for testing prototype.
 
 
 ## Simple installation instructions
+0. Use node 6+ (4 wont work)  
 1. Open your terminal of choice and run:
 ```bash
 npm install -g adaptv4-cli

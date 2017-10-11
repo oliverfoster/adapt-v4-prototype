@@ -51,7 +51,7 @@ grunt dev
   * there is a test 'version 4' bower repository at [http://adapt-bower-repository-v4.herokuapp.com/](http://adapt-bower-repository-v4.herokuapp.com/packages/) with the new version 4 plugins in it, its source code is [here](https://github.com/oliverfoster/node-bower-server) and it's running from heroku.
 
 * adaptv4-cli
-  * this is just a forked and published version of the issue/v4 branch of the usual adapt-cli repo (with a few minor updates), it lives [here](https://github.com/oliverfoster/adaptv4-cli)
+  * this is just a forked and published version of the issue/v4 branch of the usual adapt-cli repo (with a few minor updates), it lives [here](https://github.com/oliverfoster/adaptv4-cli/tree/issue/v4)
 
 ### Outstanding
 * core

@@ -1,5 +1,6 @@
 # adapt-v4-prototype
 Readme for testing prototype.
+Please post issues to [here](https://github.com/oliverfoster/adapt-v4-prototype/issues)
 
 
 ## Simple installation instructions

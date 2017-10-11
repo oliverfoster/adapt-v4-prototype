@@ -55,6 +55,6 @@ grunt dev
   * this is just a forked and published version of the issue/v4 branch of the usual adapt-cli repo (with a few minor updates), it lives [here](https://github.com/oliverfoster/adaptv4-cli/tree/issue/v4)
 
 ### Outstanding
-* core
-  * emove the ``adapt-contrib-mpabc`` the menu, page, article, block, component and items abstraction, can be made of a data layer and a view layer
+* core  
+  * remove the ``adapt-contrib-mpabc`` the menu, page, article, block, component and items abstraction, can be made of a data layer and a view layer
   * decide what to do with router, accessibility, etc

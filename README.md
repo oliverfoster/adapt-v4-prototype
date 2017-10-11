@@ -34,7 +34,7 @@ grunt dev
   
 * plugins (general)
   * are now flat, no more ``components/``, ``extensions/``, ``menu/`` or ``theme/`` folders
-  * [can have specified dependencies ](https://github.com/oliverfoster/adapt-contrib-navigation/blob/master/bower.json#L12)
+  * [can have specified dependencies ](https://github.com/oliverfoster/adapt-contrib-navigation/blob/master/bower.json#L12) which install automatically
   * can have a [``config.js``](https://github.com/oliverfoster/adapt-contrib-boot/blob/master/config.js) for each plugin rather than a global one for adapt_framework. this is hopefully only a temporary measure to ensure all of the plugins are able to configure the compilation process appropriately
 
 * grunt

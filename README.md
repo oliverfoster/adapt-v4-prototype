@@ -49,6 +49,7 @@ grunt dev
 * bower
   * the [``.bowerrc``](https://github.com/adaptlearning/adapt_framework/blob/prototype4/.bowerrc) file allows installation of plugins from multiple, layered bower repositories
   * there is a test 'version 4' bower repository at [http://adapt-bower-repository-v4.herokuapp.com/](http://adapt-bower-repository-v4.herokuapp.com/packages/) with the new version 4 plugins in it, its source code is [here](https://github.com/oliverfoster/node-bower-server) and it's running from heroku.
+  * in this version of aAdapt Framework, the ``adapt-bower-repository-v4`` plugins take prescendence over the ``adapt-bower-repository`` ones, but all of the core components work seamlessly with this prototype
 
 * adaptv4-cli
   * this is just a forked and published version of the issue/v4 branch of the usual adapt-cli repo (with a few minor updates), it lives [here](https://github.com/oliverfoster/adaptv4-cli/tree/issue/v4)

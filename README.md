@@ -42,7 +42,7 @@ grunt dev
   * supports an extra plugin type of ``adapt-core`` to provide the first layer of the build process before ``adapt-component``, ``adapt-extension``, ``adapt-menu`` and ``adapt-theme``
   * grunt builds the flattened plugins in plugin-type-order (all ``adapt-core`` first, all ``adapt-theme`` last) and then in dependency-order (roots first, most dependant last)
   * the grunt config is simplified as all of the plugins are treated equally and there are no secondary rules for the deleted ``src/core/`` folder
-  * grunt now rewrites the runtime requirejs dependency strings to accomodate the new layout. ``coreJS/`` will be rewritten into `adapt-contrib-core/js/`, etc. and warnings will shown in the console for renamed namespaces
+  * grunt now rewrites the runtime requirejs dependency strings to accomodate the new layout. ``coreJS/`` will be rewritten into `adapt-contrib-core/js/`, etc. and warnings will be shown in the console for renamed namespaces
   * has some extra files to manage the plugins, to correct namespaces and to load requirejs configurations
   * has an extra task to build the ``adapt/data/manifest.json`` file, which contains a list of all the json files in the course folder, this ties into the [``adapt-contrib-data``](https://github.com/oliverfoster/adapt-contrib-data) plugin
 

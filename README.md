@@ -56,5 +56,5 @@ grunt dev
 
 ### Outstanding
 * core
-  * ``adapt-contrib-mpabc`` the menu, page, article, block, component and items abstraction, can be made of a data layer and a view layer
+  * emove the ``adapt-contrib-mpabc`` the menu, page, article, block, component and items abstraction, can be made of a data layer and a view layer
   * decide what to do with router, accessibility, etc

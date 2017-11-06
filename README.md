@@ -59,3 +59,5 @@ grunt dev
 * core  
   * remove the menu, page, article, block, component and items abstraction, can be made of a data layer and a view layer
   * decide what to do with router, accessibility, etc
+* adapt-cli
+  * AT API to make AT package management platform agnostic and centralize package management in the stack

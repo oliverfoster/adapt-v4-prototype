@@ -25,6 +25,7 @@ grunt dev
 * grunt
   * ``theme`` and ``menu`` parameters 
   * dependency inclusion for ``includes`` and ``excludes``
+  * missing dependency warnings
 
 ### New bits
 * core
